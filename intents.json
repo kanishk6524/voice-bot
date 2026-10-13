@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "Howdy", "What's up", "Greetings", "Hi there", "Hello there"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Great to see you. How can I assist?", "Good day! How may I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "See ya", "Take care", "Later", "Farewell", "Catch you later", "I'm leaving", "Good night"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Farewell! Come back anytime.", "Bye! It was great talking to you!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thank you so much", "That's helpful", "Thanks a lot", "Much appreciated", "Cheers", "Many thanks"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime! Let me know if you need anything else.", "Glad I could assist!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "What should I call you?", "Do you have a name?", "What are you called?"],
+      "responses": ["I'm VoiceBot, your AI assistant!", "My name is VoiceBot. I'm here to help!", "You can call me VoiceBot — your smart AI companion!"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How do I apply for admission?", "What is the admission process?", "When are admissions open?", "How to get admission", "Admission criteria", "What are the eligibility criteria?", "How to enroll?"],
+      "responses": ["Admissions are typically open in June-July. Visit the college website, fill out the online form, and submit required documents like mark sheets and ID proof.", "To apply, visit the official admissions portal, complete the form, and submit 10th/12th marksheets along with a photo ID."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What are the fees?", "How much is the tuition fee?", "What is the course fee?", "Fee structure", "How much does it cost?", "Fee payment"],
+      "responses": ["Fee structures vary by course. For accurate and updated fee information, please contact the college accounts office or visit the official website.", "Tuition fees depend on the program. The finance department can provide a detailed fee breakup."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "List of courses", "What programs are available?", "Which subjects can I study?", "What can I study here?", "Available degrees", "Courses available"],
+      "responses": ["We offer programs in Computer Science, Electronics, Mechanical Engineering, MBA, MCA, and more. Check the official website for the complete list.", "Available courses include B.Tech (CS/EC/ME/CE), BCA, MCA, MBA, M.Tech, and PhD programs."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is hostel available?", "Do you have a hostel?", "Hostel facilities", "Can I stay on campus?", "Accommodation on campus", "Boys hostel", "Girls hostel"],
+      "responses": ["Yes, we have separate hostel facilities for boys and girls. Contact the hostel warden or administrative office for availability and fees.", "On-campus accommodation is available. The hostels are equipped with Wi-Fi, mess, and recreational facilities."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Tell me about the library", "Library timings", "Does the college have a library?", "Library facilities", "Can I access digital resources?"],
+      "responses": ["The college library is open from 8 AM to 8 PM on weekdays and 9 AM to 5 PM on weekends. It has over 50,000 books and digital journal access.", "Our library offers physical books, e-journals, NPTEL videos, and online database access for all enrolled students."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Tell me about placements", "What are the placement opportunities?", "Which companies visit for placements?", "Campus placement", "How is the placement record?", "Job placement"],
+      "responses": ["Our placement cell has tie-ups with 200+ companies. Top recruiters include TCS, Infosys, Wipro, HCL, and several startups. Average package is around 4-6 LPA.", "Placements are held every year with 80%+ placement rate. The training and placement office starts preparation from 3rd year onward."]
+    },
+    {
+      "tag": "exam",
+      "patterns": ["When are the exams?", "Exam schedule", "When is the exam?", "Exam timetable", "Semester exam dates", "When are results announced?"],
+      "responses": ["Semester examinations are usually held in November-December and April-May. Check the college notice board or website for official timetables.", "Exam schedules are published a month in advance on the student portal. Results are typically out 45 days after exams."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Are there any scholarships?", "Scholarship information", "Financial aid", "How to get scholarship?", "Merit scholarship", "Need based scholarship"],
+      "responses": ["Scholarships are available for meritorious and economically weaker students. Check with the scholarship department for eligibility and documentation required.", "Government scholarships (SC/ST/OBC/EWS) and institution merit scholarships are available. Apply through the scholarship portal before the deadline."]
+    },
+    {
+      "tag": "timing",
+      "patterns": ["What are the college timings?", "When does college start?", "College hours", "What time does class start?", "Office hours"],
+      "responses": ["College classes run from 9:00 AM to 4:30 PM, Monday to Saturday. The administrative office is open from 9 AM to 5 PM.", "Academic hours are 9 AM - 4:30 PM on weekdays. Saturday has half-day sessions until 1 PM."]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["Is bus facility available?", "College transport", "How to reach college?", "Bus routes", "Transport facility"],
+      "responses": ["The college operates bus services on 15+ routes covering nearby cities and towns. Contact the transport office for route details and fees.", "College buses run from multiple pick-up points. Monthly bus passes are available at the transport counter."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["What is the contact number?", "How to contact?", "College phone number", "Email address", "Contact information", "How can I reach you?"],
+      "responses": ["You can contact us at +91-XXXXXXXXXX or email us at info@college.edu. The office is open Monday to Saturday, 9 AM - 5 PM.", "For queries, call our helpdesk at 1800-XXX-XXXX or drop an email to admissions@college.edu."]
+    },
+    {
+      "tag": "ai_ml",
+      "patterns": ["Tell me about AI", "What is machine learning?", "What is deep learning?", "Explain neural networks", "What is artificial intelligence?", "How does AI work?"],
+      "responses": ["Artificial Intelligence is the simulation of human intelligence by machines. It includes subfields like ML, Deep Learning, NLP, and Computer Vision.", "Machine Learning is a subset of AI where models learn patterns from data. Deep Learning uses multi-layered neural networks for complex tasks like speech and image recognition."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Say something funny", "Make me laugh", "Crack a joke", "Funny joke please"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything! 😄", "What do you call a fake noodle? An impasta! 🍝", "Why did the computer show up to work late? It had a hard drive! 💻"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "How is the weather today?", "Weather forecast", "Will it rain today?", "Is it hot today?"],
+      "responses": ["I don't have live weather access, but you can check weather.com or Google Weather for real-time updates!", "For accurate weather data, please check a weather app or search 'weather today' on Google."]
+    },
+    {
+      "tag": "bot_capabilities",
+      "patterns": ["What can you do?", "What are your capabilities?", "Help me", "How can you help?", "What do you know?", "What topics can you answer?"],
+      "responses": ["I can answer questions about college admissions, courses, fees, placements, hostels, scholarships, and more. I can also chat about AI/ML and general topics!", "I'm here to help with college-related queries, general knowledge questions, and friendly conversation. Just ask away!"]
+    },
+    {
+      "tag": "no_response",
+      "patterns": [],
+      "responses": ["I'm not sure I understood that. Could you rephrase?", "Hmm, that's outside my knowledge. Try asking something else!", "I didn't quite get that. Can you ask differently?"]
+    }
+  ]
+}
